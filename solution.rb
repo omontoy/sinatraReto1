@@ -7,4 +7,3 @@ get '/' do
 		"Hola #{params[:name]}!"
 	end
 end
-
