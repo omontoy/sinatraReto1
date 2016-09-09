@@ -4,7 +4,7 @@ get '/' do
 	unless params[:name]
 		"Hola desconocido!"
 	else
-		"Hola #{params[:name]}"
+		"Hola #{params[:name]}!"
 	end
 end
 
